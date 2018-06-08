@@ -1,0 +1,19 @@
+local: hmm11616054
+
+Description: Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+
+Score value: 38.2
+
+Expect value: 0.070
+
+Identities value: 19/19
+
+Query string: tattgtttacttaatggat
+
+Query range: 31..49
+
+Subject String: cttattgtttacttaatggat
+
+Subject range: 1849..1867
+

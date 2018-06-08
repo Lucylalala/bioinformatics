@@ -1,0 +1,3370 @@
+BLASTN 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Query= gi|66262534|gb|DR002661.1|DR002661 TC107894 Human fetal brain,
+large insert, pCMV expression library Homo sapiens cDNA clone TC107894
+5' similar to Homo sapiens mitogen-activated protein kinase kinase
+kinase kinase 5 (MAP4K5), transcript variant 2, mRNA sequence
+         (735 letters)
+
+Database: Arabidopsis_gnomon_mRNA.fasta 
+           32,983 sequences; 50,137,195 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+lcl|hmm50926053| Gene predicted by Gnomon on Arabidopsis thaliana...    40   0.029
+lcl|hmm8710024| Gene predicted by Gnomon on Arabidopsis thaliana ...    40   0.029
+lcl|hmm6854033| Gene predicted by Gnomon on Arabidopsis thaliana ...    36   0.46 
+lcl|hmm6858033| Gene predicted by Gnomon on Arabidopsis thaliana ...    36   0.46 
+lcl|hmm10652054| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.8  
+lcl|hmm41514033| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.8  
+lcl|hmm37296033| Gene (has frameshifts or/and premature stops) pr...    34   1.8  
+lcl|hmm25024023| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.8  
+lcl|hmm7780024| Gene predicted by Gnomon on Arabidopsis thaliana ...    34   1.8  
+lcl|hmm6942024| Gene predicted by Gnomon on Arabidopsis thaliana ...    34   1.8  
+lcl|hmm6928024| Gene predicted by Gnomon on Arabidopsis thaliana ...    34   1.8  
+lcl|hmm6728024| Gene predicted by Gnomon on Arabidopsis thaliana ...    34   1.8  
+lcl|hmm15450014| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.8  
+lcl|hmm51126013| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.8  
+lcl|hmm13638014| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.8  
+lcl|hmm13894054| Gene predicted by Gnomon on Arabidopsis thaliana...    32   7.1  
+lcl|hmm44328053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   7.1  
+lcl|hmm11918054| Gene predicted by Gnomon on Arabidopsis thaliana...    32   7.1  
+lcl|hmm17774053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   7.1  
+lcl|hmm12432053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   7.1  
+lcl|hmm32256043| Gene predicted by Gnomon on Arabidopsis thaliana...    32   7.1  
+lcl|hmm32386033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   7.1  
+lcl|hmm11572034| Gene (has frameshifts or/and premature stops) pr...    32   7.1  
+lcl|hmm31314033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   7.1  
+lcl|hmm30114033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   7.1  
+lcl|hmm22060033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   7.1  
+lcl|hmm20794033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   7.1  
+lcl|hmm7998023| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   7.1  
+lcl|hmm7990023| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   7.1  
+lcl|hmm57180013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   7.1  
+lcl|hmm56068013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   7.1  
+lcl|hmm41530013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   7.1  
+
+ALIGNMENTS
+>lcl|hmm50926053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 2674
+
+ Score = 40.1 bits (20), Expect = 0.029
+ Identities = 23/24 (95%)
+ Strand = Plus / Plus
+
+                                    
+Query: 633  catagagatatcaaaggtgctaat 656
+            ||||| ||||||||||||||||||
+Sbjct: 1573 catagggatatcaaaggtgctaat 1596
+
+
+>lcl|hmm8710024| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003071.3 [2|reference]
+          Length = 5232
+
+ Score = 40.1 bits (20), Expect = 0.029
+ Identities = 20/20 (100%)
+ Strand = Plus / Minus
+
+                                
+Query: 394  atttttctttgattcaacaa 413
+            ||||||||||||||||||||
+Sbjct: 4575 atttttctttgattcaacaa 4556
+
+
+>lcl|hmm6854033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 2087
+
+ Score = 36.2 bits (18), Expect = 0.46
+ Identities = 20/21 (95%)
+ Strand = Plus / Plus
+
+                                 
+Query: 621  aaaggcanaatgcatagagat 641
+            ||||||| |||||||||||||
+Sbjct: 1239 aaaggcataatgcatagagat 1259
+
+
+>lcl|hmm6858033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 1899
+
+ Score = 36.2 bits (18), Expect = 0.46
+ Identities = 20/21 (95%)
+ Strand = Plus / Plus
+
+                                 
+Query: 621  aaaggcanaatgcatagagat 641
+            ||||||| |||||||||||||
+Sbjct: 1051 aaaggcataatgcatagagat 1071
+
+
+>lcl|hmm10652054| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 696
+
+ Score = 34.2 bits (17), Expect = 1.8
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 645 aaaggtgctaatatttt 661
+           |||||||||||||||||
+Sbjct: 139 aaaggtgctaatatttt 155
+
+
+>lcl|hmm41514033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 2633
+
+ Score = 34.2 bits (17), Expect = 1.8
+ Identities = 20/21 (95%)
+ Strand = Plus / Minus
+
+                                 
+Query: 403  tgattcaacaagaaatattta 423
+            |||||||| ||||||||||||
+Sbjct: 2620 tgattcaataagaaatattta 2600
+
+
+>lcl|hmm37296033| Gene (has frameshifts or/and premature stops)
+            predicted by Gnomon on Arabidopsis thaliana reference
+            genomic contig NC_003074.4 [3|reference]
+          Length = 3130
+
+ Score = 34.2 bits (17), Expect = 1.8
+ Identities = 17/17 (100%)
+ Strand = Plus / Minus
+
+                             
+Query: 434  atgtaaacattgtaaca 450
+            |||||||||||||||||
+Sbjct: 3017 atgtaaacattgtaaca 3001
+
+
+>lcl|hmm25024023| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003071.3 [2|reference]
+          Length = 1172
+
+ Score = 34.2 bits (17), Expect = 1.8
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 487 aactatggatttgtatg 503
+           |||||||||||||||||
+Sbjct: 507 aactatggatttgtatg 523
+
+
+>lcl|hmm7780024| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003071.3 [2|reference]
+          Length = 696
+
+ Score = 34.2 bits (17), Expect = 1.8
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 645 aaaggtgctaatatttt 661
+           |||||||||||||||||
+Sbjct: 139 aaaggtgctaatatttt 155
+
+
+>lcl|hmm6942024| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003071.3 [2|reference]
+          Length = 693
+
+ Score = 34.2 bits (17), Expect = 1.8
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 645 aaaggtgctaatatttt 661
+           |||||||||||||||||
+Sbjct: 136 aaaggtgctaatatttt 152
+
+
+>lcl|hmm6928024| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003071.3 [2|reference]
+          Length = 696
+
+ Score = 34.2 bits (17), Expect = 1.8
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 645 aaaggtgctaatatttt 661
+           |||||||||||||||||
+Sbjct: 139 aaaggtgctaatatttt 155
+
+
+>lcl|hmm6728024| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003071.3 [2|reference]
+          Length = 618
+
+ Score = 34.2 bits (17), Expect = 1.8
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 645 aaaggtgctaatatttt 661
+           |||||||||||||||||
+Sbjct: 139 aaaggtgctaatatttt 155
+
+
+>lcl|hmm15450014| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 2262
+
+ Score = 34.2 bits (17), Expect = 1.8
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                             
+Query: 378  ttggagcctggagatga 394
+            |||||||||||||||||
+Sbjct: 2246 ttggagcctggagatga 2262
+
+
+>lcl|hmm51126013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 2014
+
+ Score = 34.2 bits (17), Expect = 1.8
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                             
+Query: 631  tgcatagagatatcaaa 647
+            |||||||||||||||||
+Sbjct: 1348 tgcatagagatatcaaa 1364
+
+
+>lcl|hmm13638014| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 696
+
+ Score = 34.2 bits (17), Expect = 1.8
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 645 aaaggtgctaatatttt 661
+           |||||||||||||||||
+Sbjct: 139 aaaggtgctaatatttt 155
+
+
+>lcl|hmm13894054| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 3416
+
+ Score = 32.2 bits (16), Expect = 7.1
+ Identities = 19/20 (95%)
+ Strand = Plus / Plus
+
+                                
+Query: 597  cagggtcttgcctatttgca 616
+            |||||||| |||||||||||
+Sbjct: 2743 cagggtctcgcctatttgca 2762
+
+
+>lcl|hmm44328053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 1289
+
+ Score = 32.2 bits (16), Expect = 7.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 429  aaagaatgtaaacatt 444
+            ||||||||||||||||
+Sbjct: 1211 aaagaatgtaaacatt 1226
+
+
+>lcl|hmm11918054| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 1215
+
+ Score = 32.2 bits (16), Expect = 7.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 633 catagagatatcaaag 648
+           ||||||||||||||||
+Sbjct: 688 catagagatatcaaag 703
+
+
+>lcl|hmm17774053| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 1261
+
+ Score = 32.2 bits (16), Expect = 7.1
+ Identities = 19/20 (95%)
+ Strand = Plus / Plus
+
+                               
+Query: 401 tttgattcaacaagaaatat 420
+           ||||||||||||||| ||||
+Sbjct: 662 tttgattcaacaagagatat 681
+
+
+>lcl|hmm12432053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 1325
+
+ Score = 32.2 bits (16), Expect = 7.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 504  gaatactgtggtggcg 519
+            ||||||||||||||||
+Sbjct: 1190 gaatactgtggtggcg 1205
+
+
+>lcl|hmm32256043| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003075.3 [4|reference]
+          Length = 1986
+
+ Score = 32.2 bits (16), Expect = 7.1
+ Identities = 22/24 (91%)
+ Strand = Plus / Minus
+
+                                    
+Query: 393  gatttttctttgattcaacaagaa 416
+            ||||| |||||| |||||||||||
+Sbjct: 1056 gatttctctttgcttcaacaagaa 1033
+
+
+>lcl|hmm32386033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 787
+
+ Score = 32.2 bits (16), Expect = 7.1
+ Identities = 19/20 (95%)
+ Strand = Plus / Plus
+
+                               
+Query: 391 atgatttttctttgattcaa 410
+           |||||| |||||||||||||
+Sbjct: 730 atgattcttctttgattcaa 749
+
+
+>lcl|hmm11572034| Gene (has frameshifts or/and premature stops)
+           predicted by Gnomon on Arabidopsis thaliana reference
+           genomic contig NC_003074.4 [3|reference]
+          Length = 1134
+
+ Score = 32.2 bits (16), Expect = 7.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 608 ctatttgcatactaaa 623
+           ||||||||||||||||
+Sbjct: 616 ctatttgcatactaaa 601
+
+
+>lcl|hmm31314033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 11703
+
+ Score = 32.2 bits (16), Expect = 7.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 397 tttctttgattcaaca 412
+           ||||||||||||||||
+Sbjct: 512 tttctttgattcaaca 497
+
+
+>lcl|hmm30114033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 1778
+
+ Score = 32.2 bits (16), Expect = 7.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 429  aaagaatgtaaacatt 444
+            ||||||||||||||||
+Sbjct: 1572 aaagaatgtaaacatt 1557
+
+
+>lcl|hmm22060033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 2218
+
+ Score = 32.2 bits (16), Expect = 7.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 403  tgattcaacaagaaat 418
+            ||||||||||||||||
+Sbjct: 1936 tgattcaacaagaaat 1951
+
+
+>lcl|hmm20794033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 2065
+
+ Score = 32.2 bits (16), Expect = 7.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 384 cctggagatgattttt 399
+           ||||||||||||||||
+Sbjct: 362 cctggagatgattttt 377
+
+
+>lcl|hmm7998023| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003071.3 [2|reference]
+          Length = 1596
+
+ Score = 32.2 bits (16), Expect = 7.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 410 acaagaaatatttatg 425
+           ||||||||||||||||
+Sbjct: 253 acaagaaatatttatg 238
+
+
+>lcl|hmm7990023| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003071.3 [2|reference]
+          Length = 1545
+
+ Score = 32.2 bits (16), Expect = 7.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 410 acaagaaatatttatg 425
+           ||||||||||||||||
+Sbjct: 202 acaagaaatatttatg 187
+
+
+>lcl|hmm57180013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 1321
+
+ Score = 32.2 bits (16), Expect = 7.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 420 tttatggttaaagaat 435
+           ||||||||||||||||
+Sbjct: 176 tttatggttaaagaat 161
+
+
+>lcl|hmm56068013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 2273
+
+ Score = 32.2 bits (16), Expect = 7.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 602  tcttgcctatttgcat 617
+            ||||||||||||||||
+Sbjct: 2146 tcttgcctatttgcat 2161
+
+
+>lcl|hmm41530013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 2306
+
+ Score = 32.2 bits (16), Expect = 7.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 388 gagatgatttttcttt 403
+           ||||||||||||||||
+Sbjct: 593 gagatgatttttcttt 578
+
+
+BLASTN 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Query= gi|66262151|gb|DR002278.1|DR002278 TC124223 Human fetal brain,
+large insert, pCMV expression library Homo sapiens cDNA clone TC124223
+5' similar to Homo sapiens mitogen-activated protein kinase kinase
+kinase kinase 4 (MAP4K4), transcript variant 1, mRNA sequence
+         (534 letters)
+
+Database: Arabidopsis_gnomon_mRNA.fasta 
+           32,983 sequences; 50,137,195 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+lcl|hmm18226053| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.3  
+lcl|hmm18224053| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.3  
+lcl|hmm50672053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   5.1  
+lcl|hmm46296053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   5.1  
+lcl|hmm17536053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   5.1  
+lcl|hmm15304053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   5.1  
+lcl|hmm15198053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   5.1  
+lcl|hmm6044044| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   5.1  
+lcl|hmm12248034| Gene (has frameshifts or/and premature stops) pr...    32   5.1  
+lcl|hmm40588033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   5.1  
+lcl|hmm37006033| Gene (has frameshifts or/and premature stops) pr...    32   5.1  
+lcl|hmm32948033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   5.1  
+lcl|hmm25302033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   5.1  
+
+ALIGNMENTS
+>lcl|hmm18226053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 2911
+
+ Score = 34.2 bits (17), Expect = 1.3
+ Identities = 20/21 (95%)
+ Strand = Plus / Plus
+
+                                 
+Query: 351  tttattgttatttgttttttg 371
+            ||||||||| |||||||||||
+Sbjct: 2647 tttattgttttttgttttttg 2667
+
+
+>lcl|hmm18224053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 3081
+
+ Score = 34.2 bits (17), Expect = 1.3
+ Identities = 20/21 (95%)
+ Strand = Plus / Plus
+
+                                 
+Query: 351  tttattgttatttgttttttg 371
+            ||||||||| |||||||||||
+Sbjct: 2817 tttattgttttttgttttttg 2837
+
+
+>lcl|hmm50672053| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 1955
+
+ Score = 32.2 bits (16), Expect = 5.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 368 tttggtggcaaaaagg 383
+           ||||||||||||||||
+Sbjct: 889 tttggtggcaaaaagg 904
+
+
+>lcl|hmm46296053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 2037
+
+ Score = 32.2 bits (16), Expect = 5.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 368  tttggtggcaaaaagg 383
+            ||||||||||||||||
+Sbjct: 1605 tttggtggcaaaaagg 1620
+
+
+>lcl|hmm17536053| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 2828
+
+ Score = 32.2 bits (16), Expect = 5.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 473 aagtggttggaaatgg 488
+           ||||||||||||||||
+Sbjct: 938 aagtggttggaaatgg 953
+
+
+>lcl|hmm15304053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 1924
+
+ Score = 32.2 bits (16), Expect = 5.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 384  gaaaatggcgaacgac 399
+            ||||||||||||||||
+Sbjct: 1347 gaaaatggcgaacgac 1362
+
+
+>lcl|hmm15198053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 1280
+
+ Score = 32.2 bits (16), Expect = 5.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 354  attgttatttgttttt 369
+            ||||||||||||||||
+Sbjct: 1248 attgttatttgttttt 1263
+
+
+>lcl|hmm6044044| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003075.3 [4|reference]
+          Length = 1600
+
+ Score = 32.2 bits (16), Expect = 5.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 463 gagctggtggaagtgg 478
+           ||||||||||||||||
+Sbjct: 425 gagctggtggaagtgg 440
+
+
+>lcl|hmm12248034| Gene (has frameshifts or/and premature stops)
+            predicted by Gnomon on Arabidopsis thaliana reference
+            genomic contig NC_003074.4 [3|reference]
+          Length = 6603
+
+ Score = 32.2 bits (16), Expect = 5.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 467  tggtggaagtggttgg 482
+            ||||||||||||||||
+Sbjct: 3822 tggtggaagtggttgg 3837
+
+
+>lcl|hmm40588033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 3684
+
+ Score = 32.2 bits (16), Expect = 5.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 351  tttattgttatttgtt 366
+            ||||||||||||||||
+Sbjct: 3668 tttattgttatttgtt 3653
+
+
+>lcl|hmm37006033| Gene (has frameshifts or/and premature stops)
+            predicted by Gnomon on Arabidopsis thaliana reference
+            genomic contig NC_003074.4 [3|reference]
+          Length = 1652
+
+ Score = 32.2 bits (16), Expect = 5.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 360  atttgttttttggtgg 375
+            ||||||||||||||||
+Sbjct: 1613 atttgttttttggtgg 1598
+
+
+>lcl|hmm32948033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 2015
+
+ Score = 32.2 bits (16), Expect = 5.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 348  acatttattgttattt 363
+            ||||||||||||||||
+Sbjct: 1954 acatttattgttattt 1969
+
+
+>lcl|hmm25302033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 3174
+
+ Score = 32.2 bits (16), Expect = 5.1
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 383 ggaaaatggcgaacga 398
+           ||||||||||||||||
+Sbjct: 155 ggaaaatggcgaacga 170
+
+
+BLASTN 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Query= gi|66261418|gb|DR001545.1|DR001545 TC117893 Human fetal brain,
+large insert, pCMV expression library Homo sapiens cDNA clone TC117893
+5' similar to Homo sapiens mitogen-activated protein kinase kinase
+kinase kinase 3 (MAP4K3), mRNA sequence
+         (573 letters)
+
+Database: Arabidopsis_gnomon_mRNA.fasta 
+           32,983 sequences; 50,137,195 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+lcl|hmm3828033| Gene predicted by Gnomon on Arabidopsis thaliana ...    34   1.4  
+lcl|hmm15642014| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.4  
+lcl|hmm34804053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   5.5  
+lcl|hmm7958044| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   5.5  
+lcl|hmm12266023| Gene predicted by Gnomon on Arabidopsis thaliana...    32   5.5  
+lcl|hmm31570013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   5.5  
+lcl|hmm12710014| Gene (has frameshifts or/and premature stops) pr...    32   5.5  
+lcl|hmm19846013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   5.5  
+lcl|hmm5838013| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   5.5  
+
+ALIGNMENTS
+>lcl|hmm3828033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 1821
+
+ Score = 34.2 bits (17), Expect = 1.4
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                             
+Query: 390  cggaatgttaacactgg 406
+            |||||||||||||||||
+Sbjct: 1261 cggaatgttaacactgg 1277
+
+
+>lcl|hmm15642014| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 1110
+
+ Score = 34.2 bits (17), Expect = 1.4
+ Identities = 20/21 (95%)
+ Strand = Plus / Minus
+
+                                
+Query: 497 acacccaaatattgttgctta 517
+           ||||||| |||||||||||||
+Sbjct: 388 acacccacatattgttgctta 368
+
+
+>lcl|hmm34804053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 3795
+
+ Score = 32.2 bits (16), Expect = 5.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 477  atcatgatgaaagact 492
+            ||||||||||||||||
+Sbjct: 1175 atcatgatgaaagact 1160
+
+
+>lcl|hmm7958044| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003075.3 [4|reference]
+          Length = 1158
+
+ Score = 32.2 bits (16), Expect = 5.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 425 agtaataaaattggaa 440
+           ||||||||||||||||
+Sbjct: 375 agtaataaaattggaa 360
+
+
+>lcl|hmm12266023| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003071.3 [2|reference]
+          Length = 1886
+
+ Score = 32.2 bits (16), Expect = 5.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 450  gactttgcagttgtgc 465
+            ||||||||||||||||
+Sbjct: 1109 gactttgcagttgtgc 1124
+
+
+>lcl|hmm31570013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 2974
+
+ Score = 32.2 bits (16), Expect = 5.5
+ Identities = 19/20 (95%)
+ Strand = Plus / Plus
+
+                               
+Query: 30  gttttcctctccttgtgggt 49
+           ||||| ||||||||||||||
+Sbjct: 253 gtttttctctccttgtgggt 272
+
+
+>lcl|hmm12710014| Gene (has frameshifts or/and premature stops)
+            predicted by Gnomon on Arabidopsis thaliana reference
+            genomic contig NC_003070.5 [1|reference]
+          Length = 3300
+
+ Score = 32.2 bits (16), Expect = 5.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 393  aatgttaacactggtg 408
+            ||||||||||||||||
+Sbjct: 1421 aatgttaacactggtg 1406
+
+
+>lcl|hmm19846013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 2574
+
+ Score = 32.2 bits (16), Expect = 5.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 482  gatgaaagactgtaaa 497
+            ||||||||||||||||
+Sbjct: 1290 gatgaaagactgtaaa 1275
+
+
+>lcl|hmm5838013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 1564
+
+ Score = 32.2 bits (16), Expect = 5.5
+ Identities = 19/20 (95%)
+ Strand = Plus / Minus
+
+                                
+Query: 422  taaagtaataaaattggaac 441
+            ||||||| ||||||||||||
+Sbjct: 1398 taaagtattaaaattggaac 1379
+
+
+BLASTN 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Query= gi|66261095|gb|DR001222.1|DR001222 TC100241 Human fetal brain,
+large insert, pCMV expression library Homo sapiens cDNA clone TC100241
+5' similar to Homo sapiens mitogen-activated protein kinase kinase
+kinase kinase 4 (MAP4K4), transcript variant 2, mRNA sequence
+         (669 letters)
+
+Database: Arabidopsis_gnomon_mRNA.fasta 
+           32,983 sequences; 50,137,195 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+lcl|hmm14922014| Gene predicted by Gnomon on Arabidopsis thaliana...    40   0.027
+lcl|hmm9600044| Gene predicted by Gnomon on Arabidopsis thaliana ...    38   0.11 
+lcl|hmm9348034| Gene predicted by Gnomon on Arabidopsis thaliana ...    38   0.11 
+lcl|hmm47356053| Gene predicted by Gnomon on Arabidopsis thaliana...    36   0.42 
+lcl|hmm38834033| Gene predicted by Gnomon on Arabidopsis thaliana...    36   0.42 
+lcl|hmm35124033| Gene predicted by Gnomon on Arabidopsis thaliana...    36   0.42 
+lcl|hmm35130033| Gene predicted by Gnomon on Arabidopsis thaliana...    36   0.42 
+lcl|hmm34502033| Gene predicted by Gnomon on Arabidopsis thaliana...    36   0.42 
+lcl|hmm34488033| Gene predicted by Gnomon on Arabidopsis thaliana...    36   0.42 
+lcl|hmm822033| Gene predicted by Gnomon on Arabidopsis thaliana r...    36   0.42 
+lcl|hmm13744054| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.6  
+lcl|hmm40754033| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.6  
+lcl|hmm37216033| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.6  
+lcl|hmm9232034| Gene predicted by Gnomon on Arabidopsis thaliana ...    34   1.6  
+lcl|hmm13728054| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm34804053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm33048053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm28610053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm12056054| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm17536053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm15304053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm29194043| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm25908043| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm25904043| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm20238043| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm20240043| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm11202043| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm7572044| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   6.5  
+lcl|hmm6044044| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   6.5  
+lcl|hmm12248034| Gene (has frameshifts or/and premature stops) pr...    32   6.5  
+lcl|hmm29098033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm28614033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm9594034| Gene (has frameshifts or/and premature stops) pre...    32   6.5  
+lcl|hmm25302033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm18026033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm27604023| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm9322024| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   6.5  
+lcl|hmm60040013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm15438014| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm54142013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm49776013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm46062013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm40550013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm14000014| Gene (has frameshifts or/and premature stops) pr...    32   6.5  
+lcl|hmm27748013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.5  
+lcl|hmm7402013| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   6.5  
+lcl|hmm3200013| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   6.5  
+
+ALIGNMENTS
+>lcl|hmm14922014| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 4194
+
+ Score = 40.1 bits (20), Expect = 0.027
+ Identities = 20/20 (100%)
+ Strand = Plus / Plus
+
+                                
+Query: 296  atgaagaggaagaaatcaaa 315
+            ||||||||||||||||||||
+Sbjct: 2212 atgaagaggaagaaatcaaa 2231
+
+
+>lcl|hmm9600044| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003075.3 [4|reference]
+          Length = 1713
+
+ Score = 38.2 bits (19), Expect = 0.11
+ Identities = 19/19 (100%)
+ Strand = Plus / Plus
+
+                              
+Query: 291 tgaggatgaagaggaagaa 309
+           |||||||||||||||||||
+Sbjct: 645 tgaggatgaagaggaagaa 663
+
+
+>lcl|hmm9348034| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 1680
+
+ Score = 38.2 bits (19), Expect = 0.11
+ Identities = 19/19 (100%)
+ Strand = Plus / Plus
+
+                              
+Query: 291 tgaggatgaagaggaagaa 309
+           |||||||||||||||||||
+Sbjct: 948 tgaggatgaagaggaagaa 966
+
+
+>lcl|hmm47356053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 1605
+
+ Score = 36.2 bits (18), Expect = 0.42
+ Identities = 18/18 (100%)
+ Strand = Plus / Minus
+
+                              
+Query: 296  atgaagaggaagaaatca 313
+            ||||||||||||||||||
+Sbjct: 1103 atgaagaggaagaaatca 1086
+
+
+>lcl|hmm38834033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 812
+
+ Score = 36.2 bits (18), Expect = 0.42
+ Identities = 18/18 (100%)
+ Strand = Plus / Minus
+
+                             
+Query: 480 gaacacactcaaagaaga 497
+           ||||||||||||||||||
+Sbjct: 688 gaacacactcaaagaaga 671
+
+
+>lcl|hmm35124033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 1868
+
+ Score = 36.2 bits (18), Expect = 0.42
+ Identities = 18/18 (100%)
+ Strand = Plus / Plus
+
+                              
+Query: 616  aaacttgttgactttggt 633
+            ||||||||||||||||||
+Sbjct: 1044 aaacttgttgactttggt 1061
+
+
+>lcl|hmm35130033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 1739
+
+ Score = 36.2 bits (18), Expect = 0.42
+ Identities = 18/18 (100%)
+ Strand = Plus / Plus
+
+                             
+Query: 616 aaacttgttgactttggt 633
+           ||||||||||||||||||
+Sbjct: 915 aaacttgttgactttggt 932
+
+
+>lcl|hmm34502033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 2422
+
+ Score = 36.2 bits (18), Expect = 0.42
+ Identities = 18/18 (100%)
+ Strand = Plus / Minus
+
+                             
+Query: 292 gaggatgaagaggaagaa 309
+           ||||||||||||||||||
+Sbjct: 338 gaggatgaagaggaagaa 321
+
+
+>lcl|hmm34488033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 626
+
+ Score = 36.2 bits (18), Expect = 0.42
+ Identities = 18/18 (100%)
+ Strand = Plus / Plus
+
+                             
+Query: 292 gaggatgaagaggaagaa 309
+           ||||||||||||||||||
+Sbjct: 290 gaggatgaagaggaagaa 307
+
+
+>lcl|hmm822033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 1132
+
+ Score = 36.2 bits (18), Expect = 0.42
+ Identities = 18/18 (100%)
+ Strand = Plus / Plus
+
+                             
+Query: 292 gaggatgaagaggaagaa 309
+           ||||||||||||||||||
+Sbjct: 648 gaggatgaagaggaagaa 665
+
+
+>lcl|hmm13744054| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 4110
+
+ Score = 34.2 bits (17), Expect = 1.6
+ Identities = 20/21 (95%)
+ Strand = Plus / Plus
+
+                                 
+Query: 273  caaagttatggatgtcactga 293
+            |||||| ||||||||||||||
+Sbjct: 1587 caaagtgatggatgtcactga 1607
+
+
+>lcl|hmm40754033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 3396
+
+ Score = 34.2 bits (17), Expect = 1.6
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                             
+Query: 559  gtgattcaccgggatat 575
+            |||||||||||||||||
+Sbjct: 2392 gtgattcaccgggatat 2408
+
+
+>lcl|hmm37216033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 2084
+
+ Score = 34.2 bits (17), Expect = 1.6
+ Identities = 17/17 (100%)
+ Strand = Plus / Minus
+
+                             
+Query: 293  aggatgaagaggaagaa 309
+            |||||||||||||||||
+Sbjct: 1921 aggatgaagaggaagaa 1905
+
+
+>lcl|hmm9232034| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 1284
+
+ Score = 34.2 bits (17), Expect = 1.6
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 393 ccctccaggacatgatg 409
+           |||||||||||||||||
+Sbjct: 759 ccctccaggacatgatg 775
+
+
+>lcl|hmm13728054| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 804
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 622 gttgactttggtgtga 637
+           ||||||||||||||||
+Sbjct: 95  gttgactttggtgtga 80
+
+
+>lcl|hmm34804053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 3795
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 369  ttatggtgctttcatc 384
+            ||||||||||||||||
+Sbjct: 2954 ttatggtgctttcatc 2969
+
+
+>lcl|hmm33048053| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 1707
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 300 agaggaagaaatcaaa 315
+           ||||||||||||||||
+Sbjct: 29  agaggaagaaatcaaa 14
+
+
+>lcl|hmm28610053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 1914
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 295  gatgaagaggaagaaa 310
+            ||||||||||||||||
+Sbjct: 1527 gatgaagaggaagaaa 1542
+
+
+>lcl|hmm12056054| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 417
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 16  cagagaagattagcat 31
+           ||||||||||||||||
+Sbjct: 194 cagagaagattagcat 179
+
+
+>lcl|hmm17536053| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 2828
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 200 aagtggttggaaatgg 215
+           ||||||||||||||||
+Sbjct: 938 aagtggttggaaatgg 953
+
+
+>lcl|hmm15304053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 1924
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 111  gaaaatggcgaacgac 126
+            ||||||||||||||||
+Sbjct: 1347 gaaaatggcgaacgac 1362
+
+
+>lcl|hmm29194043| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003075.3 [4|reference]
+          Length = 1924
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 295 gatgaagaggaagaaa 310
+           ||||||||||||||||
+Sbjct: 460 gatgaagaggaagaaa 475
+
+
+>lcl|hmm25908043| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003075.3 [4|reference]
+          Length = 1388
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 624 tgactttggtgtgagt 639
+           ||||||||||||||||
+Sbjct: 676 tgactttggtgtgagt 691
+
+
+>lcl|hmm25904043| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003075.3 [4|reference]
+          Length = 1403
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 624 tgactttggtgtgagt 639
+           ||||||||||||||||
+Sbjct: 678 tgactttggtgtgagt 693
+
+
+>lcl|hmm20238043| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003075.3 [4|reference]
+          Length = 1577
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 312  caaactggagataaat 327
+            ||||||||||||||||
+Sbjct: 1462 caaactggagataaat 1447
+
+
+>lcl|hmm20240043| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003075.3 [4|reference]
+          Length = 1421
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 312  caaactggagataaat 327
+            ||||||||||||||||
+Sbjct: 1306 caaactggagataaat 1291
+
+
+>lcl|hmm11202043| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003075.3 [4|reference]
+          Length = 910
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 348 tcacagaaacattgca 363
+           ||||||||||||||||
+Sbjct: 811 tcacagaaacattgca 826
+
+
+>lcl|hmm7572044| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003075.3 [4|reference]
+          Length = 2988
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 295 gatgaagaggaagaaa 310
+           ||||||||||||||||
+Sbjct: 255 gatgaagaggaagaaa 270
+
+
+>lcl|hmm6044044| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003075.3 [4|reference]
+          Length = 1600
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 190 gagctggtggaagtgg 205
+           ||||||||||||||||
+Sbjct: 425 gagctggtggaagtgg 440
+
+
+>lcl|hmm12248034| Gene (has frameshifts or/and premature stops)
+            predicted by Gnomon on Arabidopsis thaliana reference
+            genomic contig NC_003074.4 [3|reference]
+          Length = 6603
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 194  tggtggaagtggttgg 209
+            ||||||||||||||||
+Sbjct: 3822 tggtggaagtggttgg 3837
+
+
+>lcl|hmm29098033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 2010
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 565  caccgggatatcaagg 580
+            ||||||||||||||||
+Sbjct: 1390 caccgggatatcaagg 1405
+
+
+>lcl|hmm28614033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 998
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 19/20 (95%)
+ Strand = Plus / Plus
+
+                               
+Query: 290 ctgaggatgaagaggaagaa 309
+           ||||||| ||||||||||||
+Sbjct: 374 ctgaggaagaagaggaagaa 393
+
+
+>lcl|hmm9594034| Gene (has frameshifts or/and premature stops)
+            predicted by Gnomon on Arabidopsis thaliana reference
+            genomic contig NC_003074.4 [3|reference]
+          Length = 5466
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 19/20 (95%)
+ Strand = Plus / Plus
+
+                                
+Query: 290  ctgaggatgaagaggaagaa 309
+            ||||||||||||| ||||||
+Sbjct: 5405 ctgaggatgaagatgaagaa 5424
+
+
+>lcl|hmm25302033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 3174
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 110 ggaaaatggcgaacga 125
+           ||||||||||||||||
+Sbjct: 155 ggaaaatggcgaacga 170
+
+
+>lcl|hmm18026033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 1587
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 294 ggatgaagaggaagaa 309
+           ||||||||||||||||
+Sbjct: 299 ggatgaagaggaagaa 284
+
+
+>lcl|hmm27604023| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003071.3 [2|reference]
+          Length = 2337
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 19/20 (95%)
+ Strand = Plus / Plus
+
+                                
+Query: 559  gtgattcaccgggatatcaa 578
+            ||||||||||||||| ||||
+Sbjct: 1495 gtgattcaccgggatgtcaa 1514
+
+
+>lcl|hmm9322024| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003071.3 [2|reference]
+          Length = 1463
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 19/20 (95%)
+ Strand = Plus / Plus
+
+                                
+Query: 290  ctgaggatgaagaggaagaa 309
+            ||||||||||||| ||||||
+Sbjct: 1239 ctgaggatgaagaagaagaa 1258
+
+
+>lcl|hmm60040013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 2736
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 300  agaggaagaaatcaaa 315
+            ||||||||||||||||
+Sbjct: 1380 agaggaagaaatcaaa 1395
+
+
+>lcl|hmm15438014| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 2868
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 375  tgctttcatcaaaaag 390
+            ||||||||||||||||
+Sbjct: 2832 tgctttcatcaaaaag 2847
+
+
+>lcl|hmm54142013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 1659
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 301 gaggaagaaatcaaac 316
+           ||||||||||||||||
+Sbjct: 327 gaggaagaaatcaaac 312
+
+
+>lcl|hmm49776013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 1418
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 511 atctccagagaaatcc 526
+           ||||||||||||||||
+Sbjct: 558 atctccagagaaatcc 543
+
+
+>lcl|hmm46062013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 2101
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 295  gatgaagaggaagaaa 310
+            ||||||||||||||||
+Sbjct: 1558 gatgaagaggaagaaa 1573
+
+
+>lcl|hmm40550013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 1458
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 295 gatgaagaggaagaaa 310
+           ||||||||||||||||
+Sbjct: 757 gatgaagaggaagaaa 772
+
+
+>lcl|hmm14000014| Gene (has frameshifts or/and premature stops)
+           predicted by Gnomon on Arabidopsis thaliana reference
+           genomic contig NC_003070.5 [1|reference]
+          Length = 2937
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 543 tcttcacattcatcat 558
+           ||||||||||||||||
+Sbjct: 103 tcttcacattcatcat 118
+
+
+>lcl|hmm27748013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 837
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 527 tgaggggactggcaca 542
+           ||||||||||||||||
+Sbjct: 626 tgaggggactggcaca 611
+
+
+>lcl|hmm7402013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 966
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 19/20 (95%)
+ Strand = Plus / Plus
+
+                               
+Query: 283 gatgtcactgaggatgaaga 302
+           ||||||||||| ||||||||
+Sbjct: 878 gatgtcactgatgatgaaga 897
+
+
+>lcl|hmm3200013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 3307
+
+ Score = 32.2 bits (16), Expect = 6.5
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 541  catcttcacattcatc 556
+            ||||||||||||||||
+Sbjct: 1893 catcttcacattcatc 1878
+
+
+BLASTN 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Query= gi|66261024|gb|DR001151.1|DR001151 TC117892 Human fetal brain,
+large insert, pCMV expression library Homo sapiens cDNA clone TC117892
+5' similar to Homo sapiens mitogen-activated protein kinase kinase
+kinase kinase 3 (MAP4K3), OriGene unique variant 1, mRNA sequence
+         (689 letters)
+
+Database: Arabidopsis_gnomon_mRNA.fasta 
+           32,983 sequences; 50,137,195 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+lcl|hmm60438013| Gene predicted by Gnomon on Arabidopsis thaliana...    38   0.11 
+lcl|hmm60112013| Gene predicted by Gnomon on Arabidopsis thaliana...    36   0.43 
+lcl|hmm14746053| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.7  
+lcl|hmm36602033| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.7  
+lcl|hmm16270033| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.7  
+lcl|hmm3828033| Gene predicted by Gnomon on Arabidopsis thaliana ...    34   1.7  
+lcl|hmm15642014| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.7  
+lcl|hmm39908013| Gene (has frameshifts or/and premature stops) pr...    34   1.7  
+lcl|hmm7256013| Gene predicted by Gnomon on Arabidopsis thaliana ...    34   1.7  
+lcl|hmm34804053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.7  
+lcl|hmm12762054| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.7  
+lcl|hmm22698053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.7  
+lcl|hmm8812053| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   6.7  
+lcl|hmm9070054| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   6.7  
+lcl|hmm7958044| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   6.7  
+lcl|hmm4254043| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   6.7  
+lcl|hmm12266023| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.7  
+lcl|hmm6528024| Gene (has frameshifts or/and premature stops) pre...    32   6.7  
+lcl|hmm55060013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.7  
+lcl|hmm55064013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.7  
+lcl|hmm51076013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.7  
+lcl|hmm51078013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.7  
+lcl|hmm12710014| Gene (has frameshifts or/and premature stops) pr...    32   6.7  
+lcl|hmm19846013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.7  
+lcl|hmm15726013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.7  
+lcl|hmm15182013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.7  
+lcl|hmm10722014| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.7  
+lcl|hmm7224013| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   6.7  
+lcl|hmm7222013| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   6.7  
+lcl|hmm5838013| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   6.7  
+
+ALIGNMENTS
+>lcl|hmm60438013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 2514
+
+ Score = 38.2 bits (19), Expect = 0.11
+ Identities = 19/19 (100%)
+ Strand = Plus / Plus
+
+                              
+Query: 555 agaacttgcagagcttcag 573
+           |||||||||||||||||||
+Sbjct: 741 agaacttgcagagcttcag 759
+
+
+>lcl|hmm60112013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 1896
+
+ Score = 36.2 bits (18), Expect = 0.43
+ Identities = 21/22 (95%)
+ Strand = Plus / Plus
+
+                                 
+Query: 427 catggagttttgtggaggtggt 448
+           ||||||||||||||| ||||||
+Sbjct: 692 catggagttttgtggcggtggt 713
+
+
+>lcl|hmm14746053| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 1830
+
+ Score = 34.2 bits (17), Expect = 1.7
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 446 ggttctttacaggatat 462
+           |||||||||||||||||
+Sbjct: 495 ggttctttacaggatat 511
+
+
+>lcl|hmm36602033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 2512
+
+ Score = 34.2 bits (17), Expect = 1.7
+ Identities = 17/17 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 561 tgcagagcttcagcctc 577
+           |||||||||||||||||
+Sbjct: 868 tgcagagcttcagcctc 852
+
+
+>lcl|hmm16270033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 2320
+
+ Score = 34.2 bits (17), Expect = 1.7
+ Identities = 20/21 (95%)
+ Strand = Plus / Plus
+
+                                
+Query: 428 atggagttttgtggaggtggt 448
+           |||||||| ||||||||||||
+Sbjct: 878 atggagttatgtggaggtggt 898
+
+
+>lcl|hmm3828033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 1821
+
+ Score = 34.2 bits (17), Expect = 1.7
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                             
+Query: 260  cggaatgttaacactgg 276
+            |||||||||||||||||
+Sbjct: 1261 cggaatgttaacactgg 1277
+
+
+>lcl|hmm15642014| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 1110
+
+ Score = 34.2 bits (17), Expect = 1.7
+ Identities = 20/21 (95%)
+ Strand = Plus / Minus
+
+                                
+Query: 367 acacccaaatattgttgctta 387
+           ||||||| |||||||||||||
+Sbjct: 388 acacccacatattgttgctta 368
+
+
+>lcl|hmm39908013| Gene (has frameshifts or/and premature stops)
+           predicted by Gnomon on Arabidopsis thaliana reference
+           genomic contig NC_003070.5 [1|reference]
+          Length = 1971
+
+ Score = 34.2 bits (17), Expect = 1.7
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 470 ggatggctccagaagtt 486
+           |||||||||||||||||
+Sbjct: 716 ggatggctccagaagtt 732
+
+
+>lcl|hmm7256013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 3075
+
+ Score = 34.2 bits (17), Expect = 1.7
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                             
+Query: 470  ggatggctccagaagtt 486
+            |||||||||||||||||
+Sbjct: 2551 ggatggctccagaagtt 2567
+
+
+>lcl|hmm34804053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 3795
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 347  atcatgatgaaagact 362
+            ||||||||||||||||
+Sbjct: 1175 atcatgatgaaagact 1160
+
+
+>lcl|hmm12762054| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 4536
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 433  gttttgtggaggtggt 448
+            ||||||||||||||||
+Sbjct: 2910 gttttgtggaggtggt 2895
+
+
+>lcl|hmm22698053| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 5183
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 643 aaactaaaggataaaa 658
+           ||||||||||||||||
+Sbjct: 256 aaactaaaggataaaa 241
+
+
+>lcl|hmm8812053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 3033
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 470  ggatggctccagaagt 485
+            ||||||||||||||||
+Sbjct: 2413 ggatggctccagaagt 2428
+
+
+>lcl|hmm9070054| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 5106
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 564  agagcttcagcctcct 579
+            ||||||||||||||||
+Sbjct: 3316 agagcttcagcctcct 3301
+
+
+>lcl|hmm7958044| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003075.3 [4|reference]
+          Length = 1158
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 295 agtaataaaattggaa 310
+           ||||||||||||||||
+Sbjct: 375 agtaataaaattggaa 360
+
+
+>lcl|hmm4254043| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003075.3 [4|reference]
+          Length = 1393
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 485 ttgcagctgttgagag 500
+           ||||||||||||||||
+Sbjct: 323 ttgcagctgttgagag 308
+
+
+>lcl|hmm12266023| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003071.3 [2|reference]
+          Length = 1886
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 320  gactttgcagttgtgc 335
+            ||||||||||||||||
+Sbjct: 1109 gactttgcagttgtgc 1124
+
+
+>lcl|hmm6528024| Gene (has frameshifts or/and premature stops)
+           predicted by Gnomon on Arabidopsis thaliana reference
+           genomic contig NC_003071.3 [2|reference]
+          Length = 708
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 19/20 (95%)
+ Strand = Plus / Minus
+
+                               
+Query: 641 ctaaactaaaggataaaatg 660
+           ||||||| ||||||||||||
+Sbjct: 122 ctaaactcaaggataaaatg 103
+
+
+>lcl|hmm55060013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 3940
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 470  ggatggctccagaagt 485
+            ||||||||||||||||
+Sbjct: 3228 ggatggctccagaagt 3243
+
+
+>lcl|hmm55064013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 3898
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 470  ggatggctccagaagt 485
+            ||||||||||||||||
+Sbjct: 3186 ggatggctccagaagt 3201
+
+
+>lcl|hmm51076013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 2772
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 19/20 (95%)
+ Strand = Plus / Plus
+
+                                
+Query: 428  atggagttttgtggaggtgg 447
+            ||||||| ||||||||||||
+Sbjct: 1022 atggagtattgtggaggtgg 1041
+
+
+>lcl|hmm51078013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 2691
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 19/20 (95%)
+ Strand = Plus / Plus
+
+                               
+Query: 428 atggagttttgtggaggtgg 447
+           ||||||| ||||||||||||
+Sbjct: 941 atggagtattgtggaggtgg 960
+
+
+>lcl|hmm12710014| Gene (has frameshifts or/and premature stops)
+            predicted by Gnomon on Arabidopsis thaliana reference
+            genomic contig NC_003070.5 [1|reference]
+          Length = 3300
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 263  aatgttaacactggtg 278
+            ||||||||||||||||
+Sbjct: 1421 aatgttaacactggtg 1406
+
+
+>lcl|hmm19846013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 2574
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 352  gatgaaagactgtaaa 367
+            ||||||||||||||||
+Sbjct: 1290 gatgaaagactgtaaa 1275
+
+
+>lcl|hmm15726013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 3544
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 470  ggatggctccagaagt 485
+            ||||||||||||||||
+Sbjct: 2997 ggatggctccagaagt 3012
+
+
+>lcl|hmm15182013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 2174
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 403 caggcgagataagctt 418
+           ||||||||||||||||
+Sbjct: 790 caggcgagataagctt 805
+
+
+>lcl|hmm10722014| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 1564
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 439 tggaggtggttcttta 454
+           ||||||||||||||||
+Sbjct: 379 tggaggtggttcttta 364
+
+
+>lcl|hmm7224013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 2634
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 643 aaactaaaggataaaa 658
+           ||||||||||||||||
+Sbjct: 12  aaactaaaggataaaa 27
+
+
+>lcl|hmm7222013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 2757
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 643 aaactaaaggataaaa 658
+           ||||||||||||||||
+Sbjct: 12  aaactaaaggataaaa 27
+
+
+>lcl|hmm5838013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 1564
+
+ Score = 32.2 bits (16), Expect = 6.7
+ Identities = 19/20 (95%)
+ Strand = Plus / Minus
+
+                                
+Query: 292  taaagtaataaaattggaac 311
+            ||||||| ||||||||||||
+Sbjct: 1398 taaagtattaaaattggaac 1379
+
+
+BLASTN 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Query= gi|66258690|gb|DN998863.1|DN998863 TC115669 Human bone marrow,
+large insert, pCMV expression library Homo sapiens cDNA clone TC115669
+5' similar to Homo sapiens mitogen-activated protein kinase kinase
+kinase kinase 1 (MAP4K1), OriGene unique variant 2, mRNA sequence
+         (513 letters)
+
+Database: Arabidopsis_gnomon_mRNA.fasta 
+           32,983 sequences; 50,137,195 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+lcl|hmm792043| Gene predicted by Gnomon on Arabidopsis thaliana r...    40   0.020
+lcl|hmm49670013| Gene predicted by Gnomon on Arabidopsis thaliana...    36   0.32 
+lcl|hmm10900014| Gene predicted by Gnomon on Arabidopsis thaliana...    36   0.32 
+lcl|hmm49580053| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.2  
+lcl|hmm49582053| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.2  
+lcl|hmm12836054| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.2  
+lcl|hmm10570054| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.2  
+lcl|hmm9648034| Gene predicted by Gnomon on Arabidopsis thaliana ...    34   1.2  
+lcl|hmm28684023| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.2  
+lcl|hmm18564023| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.2  
+lcl|hmm40084053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.9  
+lcl|hmm29692053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.9  
+lcl|hmm30864043| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.9  
+lcl|hmm11788043| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.9  
+lcl|hmm32872033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.9  
+lcl|hmm17678033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.9  
+lcl|hmm17682033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.9  
+lcl|hmm15904033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.9  
+lcl|hmm8016034| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   4.9  
+lcl|hmm10896023| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.9  
+lcl|hmm12620014| Gene (has frameshifts or/and premature stops) pr...    32   4.9  
+lcl|hmm26716013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.9  
+lcl|hmm6302013| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   4.9  
+
+ALIGNMENTS
+>lcl|hmm792043| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003075.3 [4|reference]
+          Length = 1719
+
+ Score = 40.1 bits (20), Expect = 0.020
+ Identities = 23/24 (95%)
+ Strand = Plus / Minus
+
+                                   
+Query: 429 ggaagtgctccagggactggccta 452
+           |||||||| |||||||||||||||
+Sbjct: 368 ggaagtgcgccagggactggccta 345
+
+
+>lcl|hmm49670013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 3247
+
+ Score = 36.2 bits (18), Expect = 0.32
+ Identities = 24/26 (92%)
+ Strand = Plus / Plus
+
+                                      
+Query: 198  gtggcactgaagatggtgaagatgga 223
+            |||||| |||||| ||||||||||||
+Sbjct: 1694 gtggcattgaagaaggtgaagatgga 1719
+
+
+>lcl|hmm10900014| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 1669
+
+ Score = 36.2 bits (18), Expect = 0.32
+ Identities = 18/18 (100%)
+ Strand = Plus / Minus
+
+                             
+Query: 205 tgaagatggtgaagatgg 222
+           ||||||||||||||||||
+Sbjct: 58  tgaagatggtgaagatgg 41
+
+
+>lcl|hmm49580053| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 1224
+
+ Score = 34.2 bits (17), Expect = 1.2
+ Identities = 17/17 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 221 ggagcctgatgatgatg 237
+           |||||||||||||||||
+Sbjct: 911 ggagcctgatgatgatg 895
+
+
+>lcl|hmm49582053| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 1179
+
+ Score = 34.2 bits (17), Expect = 1.2
+ Identities = 17/17 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 221 ggagcctgatgatgatg 237
+           |||||||||||||||||
+Sbjct: 866 ggagcctgatgatgatg 850
+
+
+>lcl|hmm12836054| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 2394
+
+ Score = 34.2 bits (17), Expect = 1.2
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 205 tgaagatggtgaagatg 221
+           |||||||||||||||||
+Sbjct: 486 tgaagatggtgaagatg 502
+
+
+>lcl|hmm10570054| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 1731
+
+ Score = 34.2 bits (17), Expect = 1.2
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 205 tgaagatggtgaagatg 221
+           |||||||||||||||||
+Sbjct: 354 tgaagatggtgaagatg 370
+
+
+>lcl|hmm9648034| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 594
+
+ Score = 34.2 bits (17), Expect = 1.2
+ Identities = 17/17 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 55  ctcaggcccccagggat 71
+           |||||||||||||||||
+Sbjct: 555 ctcaggcccccagggat 539
+
+
+>lcl|hmm28684023| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003071.3 [2|reference]
+          Length = 2485
+
+ Score = 34.2 bits (17), Expect = 1.2
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                             
+Query: 227  tgatgatgatgtctcca 243
+            |||||||||||||||||
+Sbjct: 1343 tgatgatgatgtctcca 1359
+
+
+>lcl|hmm18564023| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003071.3 [2|reference]
+          Length = 2346
+
+ Score = 34.2 bits (17), Expect = 1.2
+ Identities = 20/21 (95%)
+ Strand = Plus / Plus
+
+                                 
+Query: 217  agatggagcctgatgatgatg 237
+            ||||| |||||||||||||||
+Sbjct: 1268 agatgcagcctgatgatgatg 1288
+
+
+>lcl|hmm40084053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 2505
+
+ Score = 32.2 bits (16), Expect = 4.9
+ Identities = 19/20 (95%)
+ Strand = Plus / Plus
+
+                                
+Query: 213  gtgaagatggagcctgatga 232
+            ||||||||||||| ||||||
+Sbjct: 1307 gtgaagatggagcatgatga 1326
+
+
+>lcl|hmm29692053| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 1500
+
+ Score = 32.2 bits (16), Expect = 4.9
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 206 gaagatggtgaagatg 221
+           ||||||||||||||||
+Sbjct: 163 gaagatggtgaagatg 148
+
+
+>lcl|hmm30864043| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003075.3 [4|reference]
+          Length = 1474
+
+ Score = 32.2 bits (16), Expect = 4.9
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 402 agagctccagattagc 417
+           ||||||||||||||||
+Sbjct: 273 agagctccagattagc 258
+
+
+>lcl|hmm11788043| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003075.3 [4|reference]
+          Length = 1363
+
+ Score = 32.2 bits (16), Expect = 4.9
+ Identities = 19/20 (95%)
+ Strand = Plus / Plus
+
+                               
+Query: 450 ctatttgcactcacagaaga 469
+           ||||||||||||| ||||||
+Sbjct: 742 ctatttgcactcagagaaga 761
+
+
+>lcl|hmm32872033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 2453
+
+ Score = 32.2 bits (16), Expect = 4.9
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 204  ctgaagatggtgaaga 219
+            ||||||||||||||||
+Sbjct: 1103 ctgaagatggtgaaga 1088
+
+
+>lcl|hmm17678033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 4315
+
+ Score = 32.2 bits (16), Expect = 4.9
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 262  tcatattgaaaacttg 277
+            ||||||||||||||||
+Sbjct: 1760 tcatattgaaaacttg 1775
+
+
+>lcl|hmm17682033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 4306
+
+ Score = 32.2 bits (16), Expect = 4.9
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 262  tcatattgaaaacttg 277
+            ||||||||||||||||
+Sbjct: 1751 tcatattgaaaacttg 1766
+
+
+>lcl|hmm15904033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 2006
+
+ Score = 32.2 bits (16), Expect = 4.9
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 206 gaagatggtgaagatg 221
+           ||||||||||||||||
+Sbjct: 354 gaagatggtgaagatg 369
+
+
+>lcl|hmm8016034| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 1824
+
+ Score = 32.2 bits (16), Expect = 4.9
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 207 aagatggtgaagatgg 222
+           ||||||||||||||||
+Sbjct: 253 aagatggtgaagatgg 268
+
+
+>lcl|hmm10896023| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003071.3 [2|reference]
+          Length = 860
+
+ Score = 32.2 bits (16), Expect = 4.9
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 204 ctgaagatggtgaaga 219
+           ||||||||||||||||
+Sbjct: 547 ctgaagatggtgaaga 562
+
+
+>lcl|hmm12620014| Gene (has frameshifts or/and premature stops)
+           predicted by Gnomon on Arabidopsis thaliana reference
+           genomic contig NC_003070.5 [1|reference]
+          Length = 1179
+
+ Score = 32.2 bits (16), Expect = 4.9
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 261 ctcatattgaaaactt 276
+           ||||||||||||||||
+Sbjct: 585 ctcatattgaaaactt 570
+
+
+>lcl|hmm26716013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 2718
+
+ Score = 32.2 bits (16), Expect = 4.9
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 322  tgcagaaactctggat 337
+            ||||||||||||||||
+Sbjct: 1045 tgcagaaactctggat 1030
+
+
+>lcl|hmm6302013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 1175
+
+ Score = 32.2 bits (16), Expect = 4.9
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 249 cagaaggaaatcctca 264
+           ||||||||||||||||
+Sbjct: 123 cagaaggaaatcctca 108
+
+
+BLASTN 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Query= gi|66258137|gb|DN998310.1|DN998310 TC115668 Human breast cancer
+tissue, large insert, pCMV expression library Homo sapiens cDNA clone
+TC115668 5' similar to Homo sapiens mitogen-activated protein kinase
+kinase kinase kinase 1 (MAP4K1), OriGene unique variant 1, mRNA
+sequence
+         (622 letters)
+
+Database: Arabidopsis_gnomon_mRNA.fasta 
+           32,983 sequences; 50,137,195 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+lcl|hmm8162044| Gene predicted by Gnomon on Arabidopsis thaliana ...    40   0.025
+lcl|hmm792043| Gene predicted by Gnomon on Arabidopsis thaliana r...    40   0.025
+lcl|hmm7532013| Gene predicted by Gnomon on Arabidopsis thaliana ...    38   0.098
+lcl|hmm7538013| Gene predicted by Gnomon on Arabidopsis thaliana ...    38   0.098
+lcl|hmm9696034| Gene predicted by Gnomon on Arabidopsis thaliana ...    36   0.39 
+lcl|hmm49670013| Gene predicted by Gnomon on Arabidopsis thaliana...    36   0.39 
+lcl|hmm10900014| Gene predicted by Gnomon on Arabidopsis thaliana...    36   0.39 
+lcl|hmm49580053| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.5  
+lcl|hmm49582053| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.5  
+lcl|hmm12836054| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.5  
+lcl|hmm10570054| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.5  
+lcl|hmm5152053| Gene predicted by Gnomon on Arabidopsis thaliana ...    34   1.5  
+lcl|hmm28684023| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.5  
+lcl|hmm18564023| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.5  
+lcl|hmm40084053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.0  
+lcl|hmm29692053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.0  
+lcl|hmm11788043| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.0  
+lcl|hmm32872033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.0  
+lcl|hmm17678033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.0  
+lcl|hmm17682033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.0  
+lcl|hmm15904033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.0  
+lcl|hmm8016034| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   6.0  
+lcl|hmm33040023| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.0  
+lcl|hmm33042023| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.0  
+lcl|hmm10896023| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.0  
+lcl|hmm32870013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.0  
+lcl|hmm12620014| Gene (has frameshifts or/and premature stops) pr...    32   6.0  
+lcl|hmm26716013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   6.0  
+lcl|hmm6302013| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   6.0  
+
+ALIGNMENTS
+>lcl|hmm8162044| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003075.3 [4|reference]
+          Length = 1464
+
+ Score = 40.1 bits (20), Expect = 0.025
+ Identities = 26/28 (92%)
+ Strand = Plus / Plus
+
+                                       
+Query: 545 acaccctactggatggctccggaagtgg 572
+           ||||| || |||||||||||||||||||
+Sbjct: 559 acaccgtattggatggctccggaagtgg 586
+
+
+>lcl|hmm792043| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003075.3 [4|reference]
+          Length = 1719
+
+ Score = 40.1 bits (20), Expect = 0.025
+ Identities = 23/24 (95%)
+ Strand = Plus / Minus
+
+                                   
+Query: 379 ggaagtgctccagggactggccta 402
+           |||||||| |||||||||||||||
+Sbjct: 368 ggaagtgcgccagggactggccta 345
+
+
+>lcl|hmm7532013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 2270
+
+ Score = 38.2 bits (19), Expect = 0.098
+ Identities = 25/27 (92%)
+ Strand = Plus / Plus
+
+                                      
+Query: 544 gacaccctactggatggctccggaagt 570
+           |||||| || |||||||||||||||||
+Sbjct: 782 gacaccatattggatggctccggaagt 808
+
+
+>lcl|hmm7538013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 2024
+
+ Score = 38.2 bits (19), Expect = 0.098
+ Identities = 25/27 (92%)
+ Strand = Plus / Plus
+
+                                      
+Query: 544 gacaccctactggatggctccggaagt 570
+           |||||| || |||||||||||||||||
+Sbjct: 782 gacaccatattggatggctccggaagt 808
+
+
+>lcl|hmm9696034| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 804
+
+ Score = 36.2 bits (18), Expect = 0.39
+ Identities = 18/18 (100%)
+ Strand = Plus / Plus
+
+                             
+Query: 546 caccctactggatggctc 563
+           ||||||||||||||||||
+Sbjct: 506 caccctactggatggctc 523
+
+
+>lcl|hmm49670013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 3247
+
+ Score = 36.2 bits (18), Expect = 0.39
+ Identities = 24/26 (92%)
+ Strand = Plus / Plus
+
+                                      
+Query: 149  gtggcactgaagatggtgaagatgga 174
+            |||||| |||||| ||||||||||||
+Sbjct: 1694 gtggcattgaagaaggtgaagatgga 1719
+
+
+>lcl|hmm10900014| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 1669
+
+ Score = 36.2 bits (18), Expect = 0.39
+ Identities = 18/18 (100%)
+ Strand = Plus / Minus
+
+                             
+Query: 156 tgaagatggtgaagatgg 173
+           ||||||||||||||||||
+Sbjct: 58  tgaagatggtgaagatgg 41
+
+
+>lcl|hmm49580053| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 1224
+
+ Score = 34.2 bits (17), Expect = 1.5
+ Identities = 17/17 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 172 ggagcctgatgatgatg 188
+           |||||||||||||||||
+Sbjct: 911 ggagcctgatgatgatg 895
+
+
+>lcl|hmm49582053| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 1179
+
+ Score = 34.2 bits (17), Expect = 1.5
+ Identities = 17/17 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 172 ggagcctgatgatgatg 188
+           |||||||||||||||||
+Sbjct: 866 ggagcctgatgatgatg 850
+
+
+>lcl|hmm12836054| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 2394
+
+ Score = 34.2 bits (17), Expect = 1.5
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 156 tgaagatggtgaagatg 172
+           |||||||||||||||||
+Sbjct: 486 tgaagatggtgaagatg 502
+
+
+>lcl|hmm10570054| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 1731
+
+ Score = 34.2 bits (17), Expect = 1.5
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 156 tgaagatggtgaagatg 172
+           |||||||||||||||||
+Sbjct: 354 tgaagatggtgaagatg 370
+
+
+>lcl|hmm5152053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 3647
+
+ Score = 34.2 bits (17), Expect = 1.5
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                             
+Query: 422  atacacagggacatcaa 438
+            |||||||||||||||||
+Sbjct: 3166 atacacagggacatcaa 3182
+
+
+>lcl|hmm28684023| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003071.3 [2|reference]
+          Length = 2485
+
+ Score = 34.2 bits (17), Expect = 1.5
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                             
+Query: 178  tgatgatgatgtctcca 194
+            |||||||||||||||||
+Sbjct: 1343 tgatgatgatgtctcca 1359
+
+
+>lcl|hmm18564023| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003071.3 [2|reference]
+          Length = 2346
+
+ Score = 34.2 bits (17), Expect = 1.5
+ Identities = 20/21 (95%)
+ Strand = Plus / Plus
+
+                                 
+Query: 168  agatggagcctgatgatgatg 188
+            ||||| |||||||||||||||
+Sbjct: 1268 agatgcagcctgatgatgatg 1288
+
+
+>lcl|hmm40084053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 2505
+
+ Score = 32.2 bits (16), Expect = 6.0
+ Identities = 19/20 (95%)
+ Strand = Plus / Plus
+
+                                
+Query: 164  gtgaagatggagcctgatga 183
+            ||||||||||||| ||||||
+Sbjct: 1307 gtgaagatggagcatgatga 1326
+
+
+>lcl|hmm29692053| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003076.4 [5|reference]
+          Length = 1500
+
+ Score = 32.2 bits (16), Expect = 6.0
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 157 gaagatggtgaagatg 172
+           ||||||||||||||||
+Sbjct: 163 gaagatggtgaagatg 148
+
+
+>lcl|hmm11788043| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003075.3 [4|reference]
+          Length = 1363
+
+ Score = 32.2 bits (16), Expect = 6.0
+ Identities = 19/20 (95%)
+ Strand = Plus / Plus
+
+                               
+Query: 400 ctatttgcactcacagaaga 419
+           ||||||||||||| ||||||
+Sbjct: 742 ctatttgcactcagagaaga 761
+
+
+>lcl|hmm32872033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 2453
+
+ Score = 32.2 bits (16), Expect = 6.0
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 155  ctgaagatggtgaaga 170
+            ||||||||||||||||
+Sbjct: 1103 ctgaagatggtgaaga 1088
+
+
+>lcl|hmm17678033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 4315
+
+ Score = 32.2 bits (16), Expect = 6.0
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 213  tcatattgaaaacttg 228
+            ||||||||||||||||
+Sbjct: 1760 tcatattgaaaacttg 1775
+
+
+>lcl|hmm17682033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 4306
+
+ Score = 32.2 bits (16), Expect = 6.0
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 213  tcatattgaaaacttg 228
+            ||||||||||||||||
+Sbjct: 1751 tcatattgaaaacttg 1766
+
+
+>lcl|hmm15904033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 2006
+
+ Score = 32.2 bits (16), Expect = 6.0
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 157 gaagatggtgaagatg 172
+           ||||||||||||||||
+Sbjct: 354 gaagatggtgaagatg 369
+
+
+>lcl|hmm8016034| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 1824
+
+ Score = 32.2 bits (16), Expect = 6.0
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 158 aagatggtgaagatgg 173
+           ||||||||||||||||
+Sbjct: 253 aagatggtgaagatgg 268
+
+
+>lcl|hmm33040023| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003071.3 [2|reference]
+          Length = 2486
+
+ Score = 32.2 bits (16), Expect = 6.0
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 424  acacagggacatcaag 439
+            ||||||||||||||||
+Sbjct: 1843 acacagggacatcaag 1858
+
+
+>lcl|hmm33042023| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003071.3 [2|reference]
+          Length = 2587
+
+ Score = 32.2 bits (16), Expect = 6.0
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 424  acacagggacatcaag 439
+            ||||||||||||||||
+Sbjct: 1944 acacagggacatcaag 1959
+
+
+>lcl|hmm10896023| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003071.3 [2|reference]
+          Length = 860
+
+ Score = 32.2 bits (16), Expect = 6.0
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 155 ctgaagatggtgaaga 170
+           ||||||||||||||||
+Sbjct: 547 ctgaagatggtgaaga 562
+
+
+>lcl|hmm32870013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 1683
+
+ Score = 32.2 bits (16), Expect = 6.0
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 552 actggatggctccgga 567
+           ||||||||||||||||
+Sbjct: 327 actggatggctccgga 342
+
+
+>lcl|hmm12620014| Gene (has frameshifts or/and premature stops)
+           predicted by Gnomon on Arabidopsis thaliana reference
+           genomic contig NC_003070.5 [1|reference]
+          Length = 1179
+
+ Score = 32.2 bits (16), Expect = 6.0
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 212 ctcatattgaaaactt 227
+           ||||||||||||||||
+Sbjct: 585 ctcatattgaaaactt 570
+
+
+>lcl|hmm26716013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 2718
+
+ Score = 32.2 bits (16), Expect = 6.0
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 273  tgcagaaactctggat 288
+            ||||||||||||||||
+Sbjct: 1045 tgcagaaactctggat 1030
+
+
+>lcl|hmm6302013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 1175
+
+ Score = 32.2 bits (16), Expect = 6.0
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 200 cagaaggaaatcctca 215
+           ||||||||||||||||
+Sbjct: 123 cagaaggaaatcctca 108
+
+
+BLASTN 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Query= gi|2366400|gb|C75338.1|C75338 C75338 Human pancreatic islet
+Homo sapiens cDNA clone hbc7582 similar to X-linked phosphoglycerated
+kinase, mRNA sequence
+         (449 letters)
+
+Database: Arabidopsis_gnomon_mRNA.fasta 
+           32,983 sequences; 50,137,195 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+lcl|hmm11616054| Gene (has frameshifts or/and premature stops) pr...    38   0.070
+lcl|hmm11362034| Gene predicted by Gnomon on Arabidopsis thaliana...    36   0.28 
+lcl|hmm44862053| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.1  
+lcl|hmm11776054| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.1  
+lcl|hmm15372043| Gene predicted by Gnomon on Arabidopsis thaliana...    34   1.1  
+lcl|hmm9708024| Gene predicted by Gnomon on Arabidopsis thaliana ...    34   1.1  
+lcl|hmm11886054| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.3  
+lcl|hmm16414053| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.3  
+lcl|hmm33144043| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.3  
+lcl|hmm36252033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.3  
+lcl|hmm32186033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.3  
+lcl|hmm24278033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.3  
+lcl|hmm14794033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.3  
+lcl|hmm14784033| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.3  
+lcl|hmm8536034| Gene predicted by Gnomon on Arabidopsis thaliana ...    32   4.3  
+lcl|hmm27622023| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.3  
+lcl|hmm13878023| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.3  
+lcl|hmm61664013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.3  
+lcl|hmm50766013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.3  
+lcl|hmm33346013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.3  
+lcl|hmm33322013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.3  
+lcl|hmm33318013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.3  
+lcl|hmm24910013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.3  
+lcl|hmm14658013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.3  
+lcl|hmm14354013| Gene predicted by Gnomon on Arabidopsis thaliana...    32   4.3  
+
+ALIGNMENTS
+>lcl|hmm11616054| Gene (has frameshifts or/and premature stops)
+            predicted by Gnomon on Arabidopsis thaliana reference
+            genomic contig NC_003076.4 [5|reference]
+          Length = 4218
+
+ Score = 38.2 bits (19), Expect = 0.070
+ Identities = 19/19 (100%)
+ Strand = Plus / Plus
+
+                               
+Query: 31   tattgtttacttaatggat 49
+            |||||||||||||||||||
+Sbjct: 1849 tattgtttacttaatggat 1867
+
+
+>lcl|hmm11362034| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 2730
+
+ Score = 36.2 bits (18), Expect = 0.28
+ Identities = 18/18 (100%)
+ Strand = Plus / Plus
+
+                             
+Query: 247 tgggatcttgaagaatgt 264
+           ||||||||||||||||||
+Sbjct: 147 tgggatcttgaagaatgt 164
+
+
+>lcl|hmm44862053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 4866
+
+ Score = 34.2 bits (17), Expect = 1.1
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                             
+Query: 174  ttctttttaacaggcaa 190
+            |||||||||||||||||
+Sbjct: 1458 ttctttttaacaggcaa 1474
+
+
+>lcl|hmm11776054| Gene predicted by Gnomon on Arabidopsis thaliana
+          reference genomic contig NC_003076.4 [5|reference]
+          Length = 489
+
+ Score = 34.2 bits (17), Expect = 1.1
+ Identities = 17/17 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 82 tttcatcttgtttccat 98
+          |||||||||||||||||
+Sbjct: 49 tttcatcttgtttccat 33
+
+
+>lcl|hmm15372043| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003075.3 [4|reference]
+          Length = 1525
+
+ Score = 34.2 bits (17), Expect = 1.1
+ Identities = 17/17 (100%)
+ Strand = Plus / Plus
+
+                             
+Query: 244  aaatgggatcttgaaga 260
+            |||||||||||||||||
+Sbjct: 1101 aaatgggatcttgaaga 1117
+
+
+>lcl|hmm9708024| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003071.3 [2|reference]
+          Length = 1822
+
+ Score = 34.2 bits (17), Expect = 1.1
+ Identities = 20/21 (95%)
+ Strand = Plus / Plus
+
+                                
+Query: 47  gatcatcaattttgtctcact 67
+           |||||||| ||||||||||||
+Sbjct: 618 gatcatcagttttgtctcact 638
+
+
+>lcl|hmm11886054| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 4029
+
+ Score = 32.2 bits (16), Expect = 4.3
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 119  caaagctaatcataat 134
+            ||||||||||||||||
+Sbjct: 1420 caaagctaatcataat 1405
+
+
+>lcl|hmm16414053| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003076.4 [5|reference]
+          Length = 3013
+
+ Score = 32.2 bits (16), Expect = 4.3
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 12   cggtttcaatggacac 27
+            ||||||||||||||||
+Sbjct: 2503 cggtttcaatggacac 2518
+
+
+>lcl|hmm33144043| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003075.3 [4|reference]
+          Length = 2802
+
+ Score = 32.2 bits (16), Expect = 4.3
+ Identities = 19/20 (95%)
+ Strand = Plus / Minus
+
+                                
+Query: 424  tgcacaggaactaaaagcag 443
+            |||||||||||||| |||||
+Sbjct: 1413 tgcacaggaactaatagcag 1394
+
+
+>lcl|hmm36252033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 963
+
+ Score = 32.2 bits (16), Expect = 4.3
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 290 tgagctgagatgctgt 305
+           ||||||||||||||||
+Sbjct: 812 tgagctgagatgctgt 827
+
+
+>lcl|hmm32186033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 2048
+
+ Score = 32.2 bits (16), Expect = 4.3
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 142 atcaaaagagaactaa 157
+           ||||||||||||||||
+Sbjct: 30  atcaaaagagaactaa 45
+
+
+>lcl|hmm24278033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 2167
+
+ Score = 32.2 bits (16), Expect = 4.3
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 250 gatcttgaagaatgta 265
+           ||||||||||||||||
+Sbjct: 773 gatcttgaagaatgta 788
+
+
+>lcl|hmm14794033| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 705
+
+ Score = 32.2 bits (16), Expect = 4.3
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 242 tcaaatgggatcttga 257
+           ||||||||||||||||
+Sbjct: 355 tcaaatgggatcttga 340
+
+
+>lcl|hmm14784033| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003074.4 [3|reference]
+          Length = 2548
+
+ Score = 32.2 bits (16), Expect = 4.3
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 242  tcaaatgggatcttga 257
+            ||||||||||||||||
+Sbjct: 2005 tcaaatgggatcttga 2020
+
+
+>lcl|hmm8536034| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003074.4 [3|reference]
+          Length = 558
+
+ Score = 32.2 bits (16), Expect = 4.3
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 242 tcaaatgggatcttga 257
+           ||||||||||||||||
+Sbjct: 323 tcaaatgggatcttga 308
+
+
+>lcl|hmm27622023| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003071.3 [2|reference]
+          Length = 1199
+
+ Score = 32.2 bits (16), Expect = 4.3
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                            
+Query: 42   taatggatcatcaatt 57
+            ||||||||||||||||
+Sbjct: 1168 taatggatcatcaatt 1153
+
+
+>lcl|hmm13878023| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003071.3 [2|reference]
+          Length = 2444
+
+ Score = 32.2 bits (16), Expect = 4.3
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 47  gatcatcaattttgtc 62
+           ||||||||||||||||
+Sbjct: 575 gatcatcaattttgtc 560
+
+
+>lcl|hmm61664013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 1303
+
+ Score = 32.2 bits (16), Expect = 4.3
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                           
+Query: 246 atgggatcttgaagaa 261
+           ||||||||||||||||
+Sbjct: 563 atgggatcttgaagaa 578
+
+
+>lcl|hmm50766013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 3675
+
+ Score = 32.2 bits (16), Expect = 4.3
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 352  gaatcttgacatggaa 367
+            ||||||||||||||||
+Sbjct: 2015 gaatcttgacatggaa 2030
+
+
+>lcl|hmm33346013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 554
+
+ Score = 32.2 bits (16), Expect = 4.3
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 188 caaaatataaatatat 203
+           ||||||||||||||||
+Sbjct: 482 caaaatataaatatat 467
+
+
+>lcl|hmm33322013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 611
+
+ Score = 32.2 bits (16), Expect = 4.3
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 188 caaaatataaatatat 203
+           ||||||||||||||||
+Sbjct: 482 caaaatataaatatat 467
+
+
+>lcl|hmm33318013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 554
+
+ Score = 32.2 bits (16), Expect = 4.3
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 188 caaaatataaatatat 203
+           ||||||||||||||||
+Sbjct: 482 caaaatataaatatat 467
+
+
+>lcl|hmm24910013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 1558
+
+ Score = 32.2 bits (16), Expect = 4.3
+ Identities = 19/20 (95%)
+ Strand = Plus / Plus
+
+                               
+Query: 246 atgggatcttgaagaatgta 265
+           ||||||||||||| ||||||
+Sbjct: 601 atgggatcttgaacaatgta 620
+
+
+>lcl|hmm14658013| Gene predicted by Gnomon on Arabidopsis thaliana
+           reference genomic contig NC_003070.5 [1|reference]
+          Length = 999
+
+ Score = 32.2 bits (16), Expect = 4.3
+ Identities = 16/16 (100%)
+ Strand = Plus / Minus
+
+                           
+Query: 210 tagaatgcacaatggt 225
+           ||||||||||||||||
+Sbjct: 921 tagaatgcacaatggt 906
+
+
+>lcl|hmm14354013| Gene predicted by Gnomon on Arabidopsis thaliana
+            reference genomic contig NC_003070.5 [1|reference]
+          Length = 2749
+
+ Score = 32.2 bits (16), Expect = 4.3
+ Identities = 16/16 (100%)
+ Strand = Plus / Plus
+
+                            
+Query: 210  tagaatgcacaatggt 225
+            ||||||||||||||||
+Sbjct: 2442 tagaatgcacaatggt 2457
+
+
+  Database: Arabidopsis_gnomon_mRNA.fasta
+    Posted date:  Dec 21, 2015 11:13 PM
+  Number of letters in database: 50,137,195
+  Number of sequences in database:  32,983
+  
+Lambda     K      H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda     K      H
+    1.37    0.711     1.31 
+
+
+Matrix: blastn matrix:1 -3
+Gap Penalties: Existence: 5, Extension: 2
+Number of Sequences: 32983
+Number of Hits to DB: 2,131,160
+Number of extensions: 9159
+Number of successful extensions: 9159
+Number of sequences better than 10.0: 173
+Number of HSP's gapped: 9159
+Number of HSP's successfully gapped: 208
+Length of database: 50,137,195
+X1: 11 (21.8 bits)
+X2: 15 (29.7 bits)
+X3: 50 (99.1 bits)
+S1: 13 (26.3 bits)
+S2: 16 (32.2 bits)

@@ -1,0 +1,67 @@
+LOCUS       S79457                  1868 bp    DNA     linear   PRI 24-JUL-2016
+DEFINITION  alpha A-crystallin {5' flanking region} [human, lens, Genomic, 1868
+            nt].
+ACCESSION   S79457
+VERSION     S79457.1
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 1868)
+  AUTHORS   Jaworski,C.J., Chepelinsky,A.B. and Piatigorsky,J.
+  TITLE     The alpha A-crystallin gene: conserved features of the 5'-flanking
+            regions in human, mouse, and chicken
+  JOURNAL   J. Mol. Evol. 33 (6), 495-505 (1991)
+   PUBMED   1779432
+  REMARK    GenBank staff at the National Library of Medicine created this
+            entry [NCBI gibbsq 79457] from the original journal article.
+FEATURES             Location/Qualifiers
+     source          1..1868
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+     gene            1..1868
+                     /gene="alpha A-crystallin"
+     CDS             1860..1868
+                     /gene="alpha A-crystallin"
+                     /codon_start=1
+                     /product="alpha A-crystallin"
+                     /protein_id="AAB21309.1"
+                     /translation="MDV"
+ORIGIN      
+        1 gatcctgtgt ccccggacag tgctgtaaat gtaggaggaa ggtgctgctc atggtgctgc
+       61 tcatgatgag tgccccagtg agcacgcctc gagcccccct ttcatccctg atccatctgg
+      121 gatgtgtcag gtctgatccg catacactgg gcatctgaca tttcatggcc ttctgacgca
+      181 tgggctgaga tgaatttgca aagcccggga gtgtcctggg tgtgtgttca ctccacacgc
+      241 acgaatctgt tagaggctga gtaggaacta ggaggccaaa gagaaccagg caacttccca
+      301 cagcctggac cgtacactag aaaagctagc ctggagaggg gcatggcctc ttcccaggct
+      361 ggcaggggga atgtggggag gaccatgctc cccagggcca gtttaccaaa atatcaaaat
+      421 accaaaatat caaaagaact taaaactagg agtgagccag gtgcagtctc acgcctgtaa
+      481 tcctacactt tgagagccaa ggcaggtggg tcacctgagg tcaagagttt gagaccagcc
+      541 tggccaacac ggtgaaaccc tgtctctact aaaaatacaa aaataataat aataataata
+      601 ataataataa ttagccaagt gtggtggcag gcacctgcat ctcagctact caggaggctg
+      661 aggtgggaga attgtttgaa cctggaggca gaggttgcag tgagctgaga tcgcgccact
+      721 atatgatctg ggcgccactc tgggtgacac agcaagactc catctcaaaa acaaacaaac
+      781 aaaaccggga gtgcctggga cacttagtga gaactggaca ggggccatgg gtcgaggagc
+      841 aaaataatca ccaggacttg tggataacag gatcatgtgg gtggtgggtc cgcatgggtg
+      901 acagggacgt ggggacatgt cgccaccctg acaggagcag cccaactcaa cagccacggc
+      961 aggtcatgca cggaggctcg aggcgttacg tggggatgtt acatcaaggc attacatcat
+     1021 tacgagatgt aacgctcgag gcgttacatc gaggggacga tggcatgggg ctggggcgtc
+     1081 cagggtgggc gcagagggaa gctcaaccac gtggtgctct catctgccca cagcccagcc
+     1141 cgtcttcctg ttggaggcat gtgacccctg gaggacaagc atgtgacccc tggaggacaa
+     1201 gcatgaaacg ccataggctc cccaagtgct gaattatggc accttgcagc ttcttctcca
+     1261 cgacgtttta acaagcgatg cgtacttttg taagtggtga gtgtaacgga ggttcacaga
+     1321 tgcactccgc tttggaaacc agtgcactct tgcccaggcc cggtgagact ctgaggacga
+     1381 tgtgtctaac ctctgtgtct aacgggggtg tgtgctctcc ctcctctggc gaccatgagg
+     1441 aaacccccgg caggacaagg tgtgcagaga actagcatgg tccctggcac gtagcccctg
+     1501 cccagtgact ggcagatgag aagctccatt gtcgccccag ggagtatggg gcacaggcgc
+     1561 ctccttgggt tgtctgcctc ccgggagccc cagggtgccc aggcgggcct cagctgagtc
+     1621 caggcctcgg ggacagtccg tgcacgctcc tggggctggg ggcgggcact tgtcccagcc
+     1681 acgtttctgc tgactgagca gccttcttca tgagctcacg cctttccaga gaaatccctt
+     1741 aatgccgcca ttctgctggt ggcatatata gggagggctc ggccttggct ccacactggc
+     1801 tgccagaggc cccgctgact cctgccagcc tccaggtccc cgtggtacca aagctgaaca
+     1861 tggacgtg
+//
+
